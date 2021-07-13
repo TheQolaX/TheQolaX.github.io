@@ -10,6 +10,8 @@
     <meta property="og:title" content="its my first page...">
     
     <title>Mykola Naumenko - Web Dveloper</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
    
@@ -28,9 +30,7 @@
    </header>
    
    <div class="main">
-      <img src="img/mainPage/fon.jpg" alt="">
-       <div class="title">
-           <img src="img/mainPage/myFoto.png" alt="">
+       <div class="title__container">
            <h1>Hi, <br> I'am Mykola Naumenko</h1>
            <h4>Full stack web-developer</h4>
            <input type="submit" value="About me">
@@ -40,29 +40,37 @@
    <div class="pageAboutMe">
        <h2>About Me</h2>
        <img src="img/OrangeLine.png" alt="" class="lineOrange">
-       <img src="img/aboutMe/foto.png" alt="">
-       <p class="AboutMe">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit fuga dolores delectus itaque, porro non quasi ipsa esse numquam quidem!</p>
+       <img src="img/aboutMe/foto.png" alt="" id="me">
+       <p class="AboutMe">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit fuga dolores delectus itaque, porro non quasi ipsa esse numquam quidem! </p>
        <p class="AboutMe">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit fuga dolores delectus itaque, porro non quasi ipsa esse numquam quidem!</p>
        <input type="submit" value="Download resume">
    </div>
    
    <div class="pageWhatICan">
-       <img src="img/whatICan/fon.jpg" alt="">
+       <img src="" alt="">
        <h2>What I Can</h2>
        <img src="img/OrangeLine.png" alt="" class="lineOrange">
        <div class="blockPictureWhatICan">
-           <img src="img/whatICan/nout.png" alt="" class="pictureWhatICan">
-           <h5>Web-design</h5>
-           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, placeat.</p>
-           <img src="img/whatICan/znak.png" alt="" class="pictureWhatICan">
-           <h5>Development</h5>
-           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, placeat.</p>
-           <img src="img/whatICan/Rocket.png" alt="" class="pictureWhatICan">
-           <h5>SEO-optimization</h5>
-           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, placeat.</p>
-           <img src="img/whatICan/gromofon.png" alt="" class="pictureWhatICan">
-           <h5>Marketing</h5>
-           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, placeat.</p>
+           <div class="Web-design">
+               <img src="img/whatICan/nout.png" alt="" class="pictureWhatICan">
+               <h5>Web-design</h5>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, placeat.</p>
+           </div>
+           <div class="Development">
+               <img src="img/whatICan/znak.png" alt="" class="pictureWhatICan">
+               <h5>Development</h5>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, placeat.</p>
+           </div>
+           <div class="SEO-optimization">
+               <img src="img/whatICan/Rocket.png" alt="" class="pictureWhatICan">
+               <h5>SEO-optimization</h5>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, placeat.</p>
+           </div>
+           <div class="Marketing">
+               <img src="img/whatICan/gromofon.png" alt="" class="pictureWhatICan">
+               <h5>Marketing</h5>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, placeat.</p>
+           </div>
        </div>
    </div>
    
@@ -70,62 +78,79 @@
        <h2>Cases</h2>
        <img src="img/OrangeLine.png" alt="" class="lineOrange">
        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, eum.</p>
-       <img src="img/cases/visitSite.jpg" alt="">
-       <h3>Client:</h3>
-       <p>Company</p>
-       <h3>Website:</h3>
-       <a href="">www.blablabla</a>
-       <h4>Project name</h4>
-       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam natus dolore a ducimus maiores, quas, ex illo possimus magni eius iste aspernatur dolores exercitationem suscipit quidem ipsa quo nostrum, culpa modi sit? Officiis quam doloribus eligendi voluptatum. Praesentium, veritatis cumque. Officiis, id aut ipsa molestias cupiditate quasi accusantium quae ad.</p>
-       <input type="submit" value="Visit live site">
+       <img src="img/cases/visitSite.jpg" alt="" class="sreenShot">
+       <div class="pageCasesClientAndProjectName">
+           <div class="pageCasesClient">
+               <h3>Client:</h3>
+               <p>Company</p>
+               <h3>Website:</h3>
+               <a href="" class="a">www.blablabla</a>
+               <input type="submit" value="Visit live site">
+           </div>
+           <div class="pageCasesProjectName">
+               <h4>Project name</h4>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam natus dolore a ducimus maiores, quas, ex illo possimus magni eius iste aspernatur dolores exercitationem suscipit quidem ipsa quo nostrum, culpa modi sit? Officiis quam doloribus eligendi voluptatum. Praesentium, veritatis cumque. Officiis, id aut ipsa molestias cupiditate quasi accusantium quae ad.</p>
+           </div>
+       </div>
    </div>
    
    <div class="pagePrice">
        <h2>Price calculator</h2>
-       <form action="a">
-           <div class="textPrice">Site Type</div>
-           <select name="SiteType" id="SiteType">
-            <option value="option1">option1</option>
-            <option value="option2">option2</option>
-            <option value="option3">option3</option>
-            <option value="option4">option4</option>
-        </select>
-           <div class="textPrice">Desing</div>
-           <select name="Desing" id="Desing">
-            <option value="option1">option1</option>
-            <option value="option2">option2</option>
-            <option value="option3">option3</option>
-            <option value="option4">option4</option>
-        </select>
-           <div class="textPrice">Adaptability</div>
-           <select name="Adaptability" id="Adaptability">
-            <option value="option1">option1</option>
-            <option value="option2">option2</option>
-            <option value="option3">option3</option>
-            <option value="option4">option4</option>
-        </select>
-        <div class="term"><span>Term</span></div>
-        <div class="price"><span>Price</span></div>
-       </form>
+       <div class="form">
+           <form action="a">
+               <h3 class="textPrice">Site Type</h3>
+               <select name="SiteType" id="SiteType">
+                   <option value="option1">option1</option>
+                   <option value="option2">option2</option>
+                   <option value="option3">option3</option>
+                   <option value="option4">option4</option>
+               </select>
+               <h3 class="textPrice">Desing</h3>
+               <select name="Desing" id="Desing">
+                   <option value="option1">option1</option>
+                   <option value="option2">option2</option>
+                   <option value="option3">option3</option>
+                   <option value="option4">option4</option>
+               </select>
+               <h3 class="textPrice">Adaptability</h3>
+               <select name="Adaptability" id="Adaptability">
+                   <option value="option1">option1</option>
+                   <option value="option2">option2</option>
+                   <option value="option3">option3</option>
+                   <option value="option4">option4</option>
+               </select>
+               <img src="img/price/priceLine.jpg" alt="" class="priceLine">
+               <p class="term">Term<span>0</span></p>
+               <p class="price">Price<span>0</span></p>
+           </form>
+       </div>
    </div>
    
    <div class="pageStatistics">
        <h2>Statistics</h2>
        <img src="img/OrangeLine.png" alt="" class="lineOrange">
-       <img src="img/statistic/fon.jpg" alt="">
-       <div>
-           <img src="img/statistic/smaill.png" alt="">
-           <p class="statisticsNumber">120</p>
-           <p>Lorem ipsum dolor.</p>
-           <img src="img/statistic/skobki.png" alt="">
-           <p class="statisticsNumber">4600</p>
-           <p>Lorem ipsum dolor.</p>
-           <img src="img/statistic/znakOrange.png" alt="">
-           <p class="statisticsNumber">340</p>
-           <p>Lorem ipsum dolor.</p>
-           <img src="img/statistic/prise.png" alt="">
-           <p class="statisticsNumber">23</p>
-           <p>Lorem ipsum dolor.</p>
+       <img src="" alt="">
+       <div class="pageStatisticsIcons">
+           <div class="firsDivInBlock">
+               <img src="img/statistic/smaill.png" alt="">
+               <p class="statisticsNumber">120</p>
+               <p>Lorem ipsum dolor.</p>
+           </div>
+           <div>
+               <img src="img/statistic/skobki.png" alt="">
+               <p class="statisticsNumber">4600</p>
+               <p>Lorem ipsum dolor.</p>
+           </div>
+           <div>
+               <img src="img/statistic/znakOrange.png" alt="">
+               <p class="statisticsNumber">340</p>
+               <p>Lorem ipsum dolor.</p>
+           </div>
+           <div>
+               <img src="img/statistic/prise.png" alt="">
+               <p class="statisticsNumber">23</p>
+               <p>Lorem ipsum dolor.</p>
+           </div>
        </div>
    </div>
    
@@ -135,7 +160,7 @@
        <div>
            <img src="img/reviews/foto.png" alt="">
            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci sed ipsa libero facere dolore quasi voluptatibus, rem. Dolore, voluptatum odit.</p>
-           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, illo!</p>
+           <p><span>Lorem</span>, ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, illo!</p>
            <input type="radio" name="RadioReviews" value="1">
            <input type="radio" name="RadioReviews" value="1">
            <input type="radio" name="RadioReviews" value="1">
@@ -143,37 +168,45 @@
    </div>
    
    <div class="pageContact">
-      <img src="img/contact/fon.jpg" alt="">
+      <img src="" alt="">
        <h2>Contact</h2>
        <img src="img/OrangeLine.png" alt="" class="lineOrange">
-       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, architecto!</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, quasi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, architecto!</p>
        <div class="blockPictureContact">
-           <img src="img/contact/geo.png" alt="" class="pictureContact">
-           <p>Finland, Helsinki</p>
-           <img src="img/contact/message.png" alt="" class="pictureContact"> 
-           <p>mykolanaumenko333@gmail.com</p>
-           <img src="img/contact/telephone.png" alt="" class="pictureContact"> 
-           <p>+358 22 666 4444</p>
+           <div>
+               <img src="img/contact/geo.png" alt="" class="pictureContact">
+               <p>Finland, Helsinki</p>
+           </div>
+           <div>
+               <img src="img/contact/message.png" alt="" class="pictureContact">
+               <p>mykolanaumenko333@gmail.com</p>
+           </div>
+           <div>
+               <img src="img/contact/telephone.png" alt="" class="pictureContact">
+               <p>+358 22 666 4444</p>
+           </div>
        </div>
-       <h3>Send me a message</h3>
-       <form action="a">
-           <input type="text" name="personName" placeholder="Name">
-           <input type="text" name="personEmail" placeholder="Email"><br>
-           <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea><br>
-           <input type="submit" value="Send" class="sendButton">
-       </form>
+       <div class="messageForm">
+           <h3>Send me a message</h3>
+           <form action="a">
+               <input type="text" name="personName" placeholder="Name" class="personName">
+               <input type="text" name="personEmail" placeholder="Email"><br>
+               <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea><br>
+               <input type="submit" value="Send" class="sendButton">
+           </form>
+       </div>
        <div class="blockPictureSocialMedia">
-           <img src="img/contact/socialMedia/facebook.png" alt="" class="pictureSocialMedia">
-           <img src="img/contact/socialMedia/twiter.png" alt="" class="pictureSocialMedia">
-           <img src="img/contact/socialMedia/boll.png" alt="" class="pictureSocialMedia">
-           <img src="img/contact/socialMedia/cat.png" alt="" class="pictureSocialMedia">
-           <img src="img/contact/socialMedia/instagram.png" alt="" class="pictureSocialMedia">
-           <img src="img/contact/socialMedia/in.png" alt="" class="pictureSocialMedia">
+           <img src="img/contact/socialMedia/facebook.png" alt="" class="pictureSocialMediaFirst" id="facebook">
+           <img src="img/contact/socialMedia/twiter.png" alt="" class="pictureSocialMedia" id="twiter">
+           <img src="img/contact/socialMedia/boll.png" alt="" class="pictureSocialMedia" id="boll">
+           <img src="img/contact/socialMedia/cat.png" alt="" class="pictureSocialMedia" id="cat">
+           <img src="img/contact/socialMedia/instagram.png" alt="" class="pictureSocialMedia" id="instagram">
+           <img src="img/contact/socialMedia/in.png" alt="" class="pictureSocialMedia" id="in">
        </div>
-       <div class="map">There must be a map here</div>
    </div>
+   <div class="map">There must be a map here</div>
    
-   <footer>Copyright 2021 Mykola Naumenko. Desing by Web</footer>
+   <footer><p>Copyright 2021 Mykola Naumenko. Desing by Web</p></footer>
    
 </body>
 </html>

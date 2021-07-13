@@ -1,0 +1,505 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+p{
+    color: #79818d;
+}
+
+nav{
+    width: 100%;
+    height: 60px;
+    background: #344051
+}
+
+.logo{
+    color: #ffffff;
+    font-size: 28px;
+    line-height: 60px;
+    padding-left: 388px;
+    float: left;
+}
+
+.menu{
+    float: left;
+    padding-left: 432px;
+}
+
+.menu li{
+    float: left;
+    line-height: 60px;
+    color: #fff;
+    margin-right: 40px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.main{
+    width: 100%;
+    height: calc(100% - 60px);
+    background: url(../img/mainPage/myFoto.png) 90% 100%/auto 85% no-repeat , url(../img/mainPage/fon.jpg) center/cover no-repeat;
+}
+
+.title__container{
+    float: left;
+    margin: 432px 0px 0px 404px;
+    color: #2c384a;
+    text-align: center;
+}
+
+.title__container h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.title__container h4{
+    margin-top: 40px;
+    font-size: 22px;
+    color: #79818d;
+}
+
+.title__container input{
+    height: 40px;
+    text-align: center;
+    border: 2px solid #6d7682;
+    background: none;
+    border-radius: 5px;
+    color: #6d7682;
+    font-size: 13px;
+    padding: 0px 16px;
+    margin: 50px 14px 0px 14px;
+}
+
+.pageAboutMe{
+    width: 100%;
+    height: 715px;
+}
+
+.pageAboutMe h2{
+    float: left;
+    padding-left: 895px;
+    padding-top: 105px;
+    color: #6d7682;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.pageAboutMe .lineOrange{
+    float: left;
+    padding-left: 920px;
+    padding-top: 30px;
+}
+
+.pageAboutMe #me{
+    float: left;
+    padding-left: 857px;
+    padding-top: 60px;
+}
+
+.pageAboutMe p{
+    float: left;
+    padding-left: 590px;
+    padding-top: 25px;
+}
+
+.pageAboutMe input{
+    float: left;
+    height: 40px;
+    text-align: center;
+    border: 2px solid #6d7682;
+    background: none;
+    border-radius: 5px;
+    color: #6d7682;
+    font-size: 13px;
+    padding: 0px 16px;
+    margin: 35px 0px 0px 885px; 
+}
+
+.pageWhatICan{
+    background: url(../img/whatICan/fon.jpg) center/cover no-repeat;
+    width: 100%;
+    height: 525px;
+}
+
+.pageWhatICan h2{
+    float: left;
+    padding-left: 895px;
+    padding-top: 105px;
+    color: #6d7682;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.pageWhatICan .lineOrange{
+    float: left;
+    padding-left: 920px;
+    padding-top: 30px;
+}
+
+.pageWhatICan .blockPictureWhatICan{
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.pageWhatICan .blockPictureWhatICan div{
+    float: left;
+    width: 215px;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+}
+
+.pageWhatICan .blockPictureWhatICan div h5{
+    color: #cf7600;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 35px 0px 18px 0px
+}
+
+.pageWhatICan .blockPictureWhatICan .Web-design{
+    margin-left: 415px;
+}
+
+.pageCases{
+    text-align: center;
+    width: 100%;
+    height: 1220px;
+}
+
+.pageCases h2{
+    color: #6d7682;
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 105px;
+}
+
+.pageCases .lineOrange{
+    padding-top: 30px;
+    padding-bottom: 37px;
+}
+
+.pageCases .sreenShot{
+    height: 625px;
+    width: 1170px;
+    margin: 35px 0px 45px 388px;
+    float: left;
+}
+
+.pageCases pageCasesClientAndProjectName{
+    float: left;
+}
+
+.pageCases .pageCasesClient{
+    height: 175px;
+    width: 205px;
+    text-align: left;
+    margin-left: 388px;
+}
+
+.pageCases .pageCasesClient h3{
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0px 0px 20px 0px;
+    color: #384354;
+}
+
+.pageCases .pageCasesClient p{
+    margin: 20px 0px 20px 0px;
+    font-size: 12px;
+}
+
+.pageCases .pageCasesClient a{
+    color: #79818d;
+}
+
+.pageCases .pageCasesClient input{
+    float: left;
+    height: 45px;
+    width: 200px;
+    text-align: center;
+    border: 2px solid #63b5ae;
+    background: #63b5ae;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 13px;
+    margin: 20px 0px 0px 0px
+}
+
+.pageCases .pageCasesProjectName{
+    text-align: left;
+    margin-left: 670px;
+    width: 890px;
+    height: 115px;
+}
+
+.pageCases .pageCasesProjectName h4{
+    font-weight: 600;
+    font-size: 20px;
+    color: #384354;
+}
+
+.pageCases .pageCasesProjectName p{
+    line-height: 23px;
+    margin-top: 10px;
+}
+
+.pagePrice{
+    text-align: center;
+}
+
+.pagePrice h2{
+    font-size: 25px;
+    color: #1c2534;
+    font-weight: 600;
+    margin: 20px 0px 60px 0px;
+}
+
+.pagePrice h3{
+    font-size: 20px;
+    color: #1c2534;
+    font-weight: 600;
+    margin: 20px 0px 20px 0px;
+}
+
+.pagePrice .form{
+    text-align: left;
+    width: 890px;
+    height: 510px;
+    margin-left: 492px;
+}
+
+.pagePrice .form select{
+    height: 56px;
+    width: 890px;
+    background: #eeeeee;
+    padding: 0px 15px 0px 15px;
+    font-size: 15px;
+    color: #7d7d7d;
+}
+
+.pagePrice .form .priceLine{
+    padding: 60px 0px 20px 0px;
+}
+
+.pagePrice .form p{
+    font-size: 17px;
+    color: #1c2534;
+    font-weight: 600;
+    margin: 20px 0px 20px 0px;
+}
+
+.pagePrice .form span{
+    float: right;
+    
+}
+
+.pageStatistics{
+    background: url(../img/statistic/fon.jpg) center/cover no-repeat;
+    text-align: center;
+    height: 500px;
+    margin-top: 130px;
+}
+
+.pageStatistics h2{
+    color: #6d7682;
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 105px;
+}
+
+.pageStatistics .lineOrange{
+    padding-top: 30px;
+    padding-bottom: 37px;
+}
+
+.pageStatistics .pageStatisticsIcons{
+    float: left;
+    text-align: center;
+    padding-top: 80px;
+    margin: 0px 0px 0px 350px;
+}
+
+.pageStatistics .pageStatisticsIcons div{
+    float: left;
+    width: 215px;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+}
+
+.pageStatistics .pageStatisticsIcons div p{
+    font-size: 18px;
+    color: #323e4f;
+    font-weight: 300;
+}
+
+.pageStatistics .pageStatisticsIcons div .statisticsNumber{
+    font-size: 30px;
+    color: #323e4f;
+    margin: 25px 0px 25px 0px;
+    font-weight: 600;
+}
+
+.pageReviews{
+    text-align: center;
+}
+
+.pageReviews h2{
+    color: #6d7682;
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 105px;
+}
+
+.pageReviews .lineOrange{
+    padding-top: 30px;
+    padding-bottom: 37px;
+}
+
+.pageReviews p{
+    width: 720px;
+    line-height: 23px;
+    margin-top: 30px;
+    margin-left: 605px;
+    color: #243042;
+}
+
+.pageReviews span{
+    font-weight: 600;
+}
+
+.pageReviews input{
+    margin: 30px 5px 100px 5px;
+    color: #c96500;
+}
+
+.pageContact{
+    background: url(../img/contact/fon.jpg) center/cover no-repeat;
+    text-align: center;
+    height: 810px;
+}
+
+.pageContact h2{
+    color: #fff;
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 80px;
+}
+
+.pageContact .lineOrange{
+    padding-top: 30px;
+    padding-bottom: 37px;
+}
+
+.pageContact p{
+    color: #fff;
+}
+
+.pageContact .blockPictureContact{
+    text-align: center;
+    padding-top: 60px;
+    margin: 0px 0px 140px 350px;
+}
+
+.pageContact .blockPictureContact div{
+    float: left;
+    width: 215px;
+    margin-left: 120px;
+    margin-right: 40px;
+}
+
+.pageContact .blockPictureContact p{
+    margin-top: 15px;
+}
+
+.pageContact h3{
+    color: #fff;
+    font-size: 20px;
+    margin-left: 0px;
+    margin-top: 85px;
+}
+
+.pageContact input{
+    width: 350px;
+    height: 40px;
+    padding-left: 15px;
+    margin: 45px 30px 15px 0px;
+    background: #d2d6dc;
+    opacity: 0.9;
+}
+
+.pageContact .personName{
+    margin-left: 30px;
+}
+
+.pageContact textarea{
+    width: 731px;
+    height: 100px;
+    padding-left: 15px;
+    padding-top: 10px;
+    background: #d2d6dc;
+    opacity: 0.9;
+}
+
+.pageContact .sendButton{
+    height: 45px;
+    width: 120px;
+    text-align: center;
+    border: 2px solid #fff;
+    background: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 13px;
+    padding: 0px 16px;
+    margin: 25px 14px 0px 14px;
+}
+
+.pageContact .blockPictureSocialMedia{
+    float: left;
+    margin-left: 740px;
+    margin-top: 18px;
+}
+
+#facebook{
+    margin-left: 4px;
+}
+
+#twiter{
+    margin-left: 51px;
+    margin-top: 3px;
+}
+
+#boll{
+    margin-left: 51px;
+    margin-top: 1px;
+}
+
+#cat{
+    margin-left: 49px;
+    margin-top: 1px;
+}
+
+#instagram{
+    margin-left: 49px;
+    margin-top: 2px;
+}
+
+#in{
+    margin-left: 50px;
+    margin-top: 2px;
+}
+
+footer{
+    width: 100%;
+    height: 95px;
+    background: #354051;
+    text-align: center;
+    vertical-align: middle;
+}
+
+footer p{
+    color: #fff;
+    padding: 40px;
+}
